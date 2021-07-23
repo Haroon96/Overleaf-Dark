@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name         Overleaf Dark
 @namespace    github.com/haroon96/overleaf-dark
+@author       Muhammad Haroon
 @version      1.0.0
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
 
-@-moz-document domain("overleaf.com"),
-@document domain("overleaf.com") {
+@-moz-document domain("overleaf.com") {
     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
     body {
