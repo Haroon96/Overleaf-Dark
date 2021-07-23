@@ -2,7 +2,7 @@
 @name         Overleaf Dark
 @namespace    github.com/haroon96/overleaf-dark
 @author       Muhammad Haroon
-@version      1.0.0
+@version      1.0.3
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -101,12 +101,15 @@
     .file-tree ul.file-tree-list li .entity-name:hover,
     .file-tree ul.file-tree-list li .entity-name:hover::before,
     .dropdown-menu .dropdown-menu-button:focus, .dropdown-menu .dropdown-menu-button:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+    .outline-item-link:focus, .outline-item-link:hover,
+    .outline-item-expand-collapse-btn:hover,
     .outline-header-expand-collapse-btn:hover {
       background: #666;
     }
 
     .btn-info,
     .btn-recompile-group,
+    .outline-item-expand-collapse-btn,
     .btn-default {
       background: #333;
     }
