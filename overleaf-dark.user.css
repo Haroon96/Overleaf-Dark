@@ -7,7 +7,7 @@
 @preprocessor default
 ==/UserStyle== */
 
-@-moz-document domain("overleaf.com") {
+@-moz-document regexp("https://www.overleaf.com/project/.+") {
     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
     body {
