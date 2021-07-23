@@ -2,7 +2,7 @@
 @name         Overleaf Dark
 @namespace    github.com/haroon96/overleaf-dark
 @author       Muhammad Haroon
-@version      1.0.3
+@version      1.0.4
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -81,6 +81,13 @@
     .pdf .toolbar.toolbar-pdf {
       background: #333;
     }
+    
+    .toolbar,
+    .outline-header,
+    .toolbar .btn-full-height {
+        border: none;
+    }
+
 
     .toggle-switch {
       border-radius: 12px;
