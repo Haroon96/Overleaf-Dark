@@ -134,4 +134,8 @@
     .btn-recompile-group * {
       font-size: 1em;
     }
+    
+    .dropdown-menu > li > a {
+      color: #ddd;
+    }
 }
