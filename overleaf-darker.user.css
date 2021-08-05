@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+    body {
+      font-family: 'Inter';
+      font-size: 14px;
+    }
+
+    .ace_editor {
+      font-family: 'Iosevka Fixed Extended', 'Monaco', monospace !important;
+    }
+
+    .project-name {
+      font-size: 100%;
+    }
+
+    .project-name > span.name {
+      color: white;
+    }
+
+    .file-tree-inner,
+    .file-tree .toolbar.toolbar-filetree {
+      background-color: #000;
+    }
+
+    i.fa,
+    .file-tree ul.file-tree-list li i.fa {
+      color: #666;
+    }
+
+    .file-tree ul.file-tree-list li i.fa {
+      margin-right: 2px;
+    }
+
+    .outline-header,
+    .outline-container,
+    .outline-body {
+      background-color: #000;
+    }
+
+    .pdf,
+    .pdf-viewer {
+      background-color: #333;
+    }
+
+    .ui-layout-resizer,
+    .vertical-resizable-resizer {
+      background: #000;
+      opacity: 1;
+    }
+
+    .ui-layout-resizer:before,
+    .ui-layout-resizer:after,
+    .vertical-resizable-resizer:after,
+    .vertical-resizable-resizer:before {
+      color: #aaa;
+      opacity: 1;
+      border: none;
+    }
+
+    .custom-toggler {
+      background: #555;
+    }
+
+    .custom-toggler:hover {
+      background: #888;
+    }
+
+    .toolbar.toolbar-header,
+    .toolbar.toolbar-editor,
+    .dropdown-menu,
+    .pdf .toolbar.toolbar-pdf {
+      background: #000;
+    }
+    
+    .toolbar,
+    .outline-header,
+    .toolbar .btn-full-height {
+        border: none;
+    }
+
+
+    .toggle-switch {
+      border-radius: 12px;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .toggle-switch-input + .toggle-switch-label {
+      background: #252525;
+      color: #666;
+    }
+
+    .toggle-switch-input:checked + .toggle-switch-label,
+    .file-tree:not(.multi-selected) ul.file-tree-list li.selected > .entity > .entity-name::before,
+    .file-tree:not(.multi-selected) ul.file-tree-list li.selected > .entity > .entity-name,
+    .toolbar .btn-full-height:hover,
+    .btn-success.active, .btn-success.checked, .btn-success:active, .btn-success:focus, .btn-success:hover, .open .dropdown-toggle.btn-success,
+    .file-tree ul.file-tree-list li .entity-name:hover,
+    .file-tree ul.file-tree-list li .entity-name:hover::before,
+    .dropdown-menu .dropdown-menu-button:focus, .dropdown-menu .dropdown-menu-button:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+    .outline-item-link:focus, .outline-item-link:hover,
+    .outline-item-expand-collapse-btn:hover,
+    .outline-header-expand-collapse-btn:hover {
+      background: #000;
+    }
+
+    .btn-info,
+    .btn-recompile-group,
+    .outline-item-expand-collapse-btn,
+    .btn-default {
+      background: #000;
+    }
+
+    .btn-info:focus,
+    .btn-recompile-group:focus,
+    .btn-default:focus,
+    .btn-info:hover,
+    .btn-recompile-group:hover,
+    .btn-default:hover {
+      background: #000;
+    }
+
+    .btn-info,
+    .btn-recompile-group * {
+      font-size: 1em;
+    }
+    
+    .dropdown-menu > li > a {
+      color: #ddd;
+    }
