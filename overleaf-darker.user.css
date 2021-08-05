@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* ==UserStyle==
+@name         Overleaf Darker
+@namespace    github.com/haroon96/overleaf-darker
+@author       Muhammad Haroon
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document regexp("https://www.overleaf.com/project/.+") {
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
     body {
       font-family: 'Inter';
@@ -128,3 +139,4 @@
     .dropdown-menu > li > a {
       color: #ddd;
     }
+}
