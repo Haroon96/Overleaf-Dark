@@ -3,7 +3,7 @@
 @name         Overleaf Darker
 @namespace    github.com/haroon96/overleaf-darker
 @author       Muhammad Haroon
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -17,7 +17,7 @@
     }
 
     .ace_editor {
-      font-family: 'Iosevka Fixed Extended', 'Monaco', monospace !important;
+      font-family: 'SF Mono', 'Iosevka Fixed Extended', 'Monaco', monospace !important;
     }
 
     .project-name {
