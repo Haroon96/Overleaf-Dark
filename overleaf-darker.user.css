@@ -3,7 +3,7 @@
 @name         Overleaf Darker
 @namespace    github.com/haroon96/overleaf-darker
 @author       Muhammad Haroon
-@version      1.0.1
+@version      1.0.2
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -138,5 +138,10 @@
     
     .dropdown-menu > li > a {
       color: #ddd;
+    }
+    
+    #review-panel {
+      background: #000;
+      border: none;
     }
 }
